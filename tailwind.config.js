@@ -8,7 +8,9 @@ export default {
     extend: {
       backgroundImage:{
         'banner' : "url('./assets/Banner.png')"
-      }
+         
+      },
+      
     },
     fontFamily: {
       'serif' : ["Nunito", 'sans-serif']
