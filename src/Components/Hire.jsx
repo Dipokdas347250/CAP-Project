@@ -13,7 +13,7 @@ const Hire = () => {
                <div className="w-[75%]">
                  <div className="flex items-center gap-3">
                    <TbBrandReact className='font-serif font-medium text-[16px] text-[#FE651B]' />
-                   <h3 className='font-serif font-medium text-[16px] text-[#fff]'>Testimonial</h3>
+                   <h3 className='font-serif font-medium text-[16px] text-[#fff]'>We Are Hire</h3>
                 </div>
                 <h2 className='font-serif font-medium text-[36px] text-[#fff]'>Tell us About Your Business, We
                    are Ready to Solve.</h2>
