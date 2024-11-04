@@ -2,6 +2,8 @@ import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} fr
 import RootLayout from "./Components/RootLayout"
 import Home from "./pages/Home"
 import NewAbout from "./pages/NewAbout"
+import Service from "./pages/Service"
+import TeamMain from "./pages/TeamMain"
 
 
 
@@ -10,6 +12,8 @@ let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout/>}>
     <Route index element={<Home/>}></Route>
     <Route path="NewAbout" element={<NewAbout/>}></Route>
+    <Route path="Service" element={<Service/>}></Route>
+    <Route path="TeamMain" element={<TeamMain/>}></Route>
     
     
 

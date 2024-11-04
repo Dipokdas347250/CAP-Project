@@ -1,9 +1,10 @@
 import React from 'react'
-import Container from './Container'
+import Container from '../Components/Container'
 import ta from "../assets/Team01.png"
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { FaArrowRight ,FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
+
 
 function SampleNextArrow(props) {
     const {  onClick } = props;
@@ -24,9 +25,7 @@ function SampleNextArrow(props) {
     );
   }
 
-
-const Team = () => {
-
+const TeamMain = () => {
     const settings = {
         dots: false,
         infinite: true,
@@ -37,9 +36,15 @@ const Team = () => {
     prevArrow: <SamplePrevArrow />,
 
     }
-    return (
-        <section className="py-32 px-3 bg-[#F4F4FF]">
-            <Container>
+  return (
+    <>
+    <section className='py-40 bg-[#CCCCCC]'>
+        <div className="text-center">
+            <h2 className=' font-serif font-bold text-[42px] text-[#000] '  >Team</h2>
+        </div>
+   </section>
+   <section className="py-32 px-3 bg-[#F4F4FF]">
+   <Container>
                 <div className="text-center">
                     <h3 className="font-serif font-medium text-[16px] text-[#3661FC]">Team Member</h3>
                     <h2 className="font-serif font-bold text-[36px] text-[#000]">Creative Team Member</h2>
@@ -179,8 +184,9 @@ const Team = () => {
 
                 </Slider>
             </Container>
-        </section>
-    )
+   </section>
+    </>
+  )
 }
 
-export default Team 
+export default TeamMain

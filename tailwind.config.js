@@ -10,6 +10,9 @@ export default {
         'banner' : "url('./assets/Banner.png')",
         'footer' : "url('./assets/Footer00.png')",
         'aboutt' : "url('./assets/Abou.png')",
+        'how' : "url('./assets/How01.png')",
+        'how02' : "url('./assets/How02.png')",
+        'supp' : "url('./assets/Supp.png')",
          
       },
       
