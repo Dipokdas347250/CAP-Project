@@ -11,7 +11,7 @@ import { FaFacebookF,FaLinkedinIn ,FaTwitter ,FaYoutube  } from "react-icons/fa"
 const Header = () => {
   return (
     <>
-    <section className='py-3 bg-[#3661FC]'>
+    <section className='py-3 bg-[#3661FC] px-4 rounded-r-full  w-[100%] '>
         <Container>
            <div className="flex">
             <div className=" w-3/5">

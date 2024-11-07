@@ -4,6 +4,12 @@ import ta from "../assets/Team01.png"
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { FaArrowRight ,FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
+import { Link, useNavigate } from 'react-router-dom';
+
+
+       
+
+
 
 
 function SampleNextArrow(props) {
@@ -49,7 +55,9 @@ const TeamMain = () => {
                     <h3 className="font-serif font-medium text-[16px] text-[#3661FC]">Team Member</h3>
                     <h2 className="font-serif font-bold text-[36px] text-[#000]">Creative Team Member</h2>
                 </div>
-                <Slider className='mt-10' {...settings}>
+               
+                
+                <Slider className='mt-10' {...settings} >
 
 
                     <div className="">
@@ -183,6 +191,7 @@ const TeamMain = () => {
                     </div>
 
                 </Slider>
+                
             </Container>
    </section>
     </>

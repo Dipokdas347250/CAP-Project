@@ -5,6 +5,7 @@ import Our01 from '../assets/Our01.png';
 import Our02 from '../assets/Our02.png';
 import Our00 from '../assets/Our00.png';
 import { HiCheckCircle } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 
 const OurPricing = () => {
   return (
@@ -16,10 +17,10 @@ const OurPricing = () => {
             <h2 className="font-serif font-bold text-[36px] text-[#000]">Our Best Pricing Plan</h2>
           </div>
 
+           <Link to="./Pricing">
           <div className="flex justify-between mt-12">
-            {/* Basic Plan */}
-            <div className="w-[32%]">
-              <img className="ml-[180px]" src={Our} alt="Pricing Image" />
+           <div className="w-[32%]">
+              <img className="ml-[170px]" src={Our} alt="Pricing Image" />
               <img className="mt-[-180px]" src={Our00} alt="Pricing Overlay" />
               <div className="mt-[-495px] ml-[50px]">
                 <h3 className="font-serif font-bold text-[24px] text-[#000]">Basic Plan</h3>
@@ -54,7 +55,7 @@ const OurPricing = () => {
               
             </div>
             <div className="w-[32%]">
-              <img className="ml-[180px]" src={Our01} alt="Pricing Image" />
+              <img className="ml-[170px]" src={Our01} alt="Pricing Image" />
               <img className="mt-[-180px]" src={Our00} alt="Pricing Overlay" />
               <div className="mt-[-495px] ml-[50px]">
                 <h3 className="font-serif font-bold text-[24px] text-[#000]">Basic Plan</h3>
@@ -89,7 +90,7 @@ const OurPricing = () => {
               
             </div>
             <div className="w-[32%]">
-              <img className="ml-[180px]" src={Our02} alt="Pricing Image" />
+              <img className="ml-[170px]" src={Our02} alt="Pricing Image" />
               <img className="mt-[-180px]" src={Our00} alt="Pricing Overlay" />
               <div className="mt-[-495px] ml-[50px]">
                 <h3 className="font-serif font-bold text-[24px] text-[#000]">Silver Plan</h3>
@@ -124,10 +125,8 @@ const OurPricing = () => {
               
             </div>
             
-
-            {/* Placeholder Divs for Other Plans */}
-            
           </div>
+           </Link>
         </Container>
       </section>
     </>

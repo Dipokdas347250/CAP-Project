@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
   return (
     <>
-    <section className=' py-5 bg-[#F4F4FF]'>
+    <section className=' py-5 px-4 rounded-l-full bg-[#F4F4FF]  w-[100%] absolute '>
         <Container>
         <div className="flex justify-between items-center">
             <div className="w-[25%]">
@@ -36,9 +36,7 @@ const Navber = () => {
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[40px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>
                         <Link to="./TeamMain">Team</Link>
                     </li>
-                    <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[60px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>
-                    Portfolio
-                    </li>
+                   
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[40px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>News</li>
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[55px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>Contact</li>
                 </ul>

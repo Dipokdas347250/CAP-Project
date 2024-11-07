@@ -19,7 +19,7 @@ const Hire = () => {
                    are Ready to Solve.</h2>
                  </div>
                  <div className="w-[25%]">
-                 <div className="py-3 px-6 bg-gradient-to-r from-[#FE651B] to-[#FFAA52] w-[68%] rounded-full mt-7">
+                 <div className="py-4 px-9 bg-gradient-to-r from-[#FE651B] to-[#FFAA52]  rounded-full mt-7">
             <h3 className='font-serif font-medium text-[16px] text-[#fff]'>Contact Us</h3>
         </div>
                  </div>
