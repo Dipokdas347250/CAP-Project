@@ -37,6 +37,10 @@ const Navber = () => {
                         <Link to="./TeamMain">Team</Link>
                     </li>
                    
+                    <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[40px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>
+                       <Link to="./Shop">Shop</Link>
+                    </li>
+                   
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[40px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>News</li>
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[55px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>Contact</li>
                 </ul>
