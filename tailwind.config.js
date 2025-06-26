@@ -13,6 +13,7 @@ export default {
         'how' : "url('./assets/How01.png')",
         'how02' : "url('./assets/How02.png')",
         'supp' : "url('./assets/Supp.png')",
+        'plan' : "url('./assets/Our00.png')",
          
       },
       

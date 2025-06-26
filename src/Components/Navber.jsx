@@ -25,6 +25,7 @@ const Navber = () => {
             <div className="w-[45%]">
                 <ul className='flex justify-around items-center'>
                     <li className=' relative font-serif font-medium text-[16px] text-[#FE651B] duration-500 ease-in-out hover:text-[#1A1A1A] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[45px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>
+                        
                         <Link to="./">Home</Link>
                     </li>
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[55px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>
@@ -42,7 +43,9 @@ const Navber = () => {
                     </li>
                    
                     <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[40px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>News</li>
-                    <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[55px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>Contact</li>
+                    <li className=' relative font-serif font-medium text-[16px] text-[#1A1A1A] duration-500 ease-in-out hover:text-[#FE651B] cursor-pointer after:absolute after:contain-[""] after:bottom-[-20px] after:left-0 after:h-0 after:w-[55px] after:bg-[#FE651B] after:duration-500 after:ease-in-out after:hover:h-[4px]'>
+                        <Link to="./Contact">Contact</Link>
+                    </li>
                 </ul>
             </div>
             <div className="w-[30%] flex justify-between">

@@ -20,9 +20,10 @@ const OurPricing = () => {
            <Link to="./Pricing">
           <div className="flex justify-between mt-12">
            <div className="w-[32%]">
-              <img className="ml-[170px]" src={Our} alt="Pricing Image" />
-              <img className="mt-[-180px]" src={Our00} alt="Pricing Overlay" />
-              <div className="mt-[-495px] ml-[50px]">
+              <div className="bg-plan bg-cover bg-no-repeat w-[464px] h-[606px] relative ">
+                <img className=" absolute top-[12px] right-[3px] -z-50   " src={Our} alt="Pricing Image" />
+              
+              <div className=" pt-8 px-11">
                 <h3 className="font-serif font-bold text-[24px] text-[#000]">Basic Plan</h3>
                 <div className="flex gap-10 mt-3 items-center">
                   <div className="flex">
@@ -33,7 +34,7 @@ const OurPricing = () => {
                 </div>
                 
                 {/* Features */}
-                <div className="mt-8 ml-[50%] translate-x-[-50%] mr-[-50px]">
+                <div className=" ml-[50%] translate-x-[-50%] mt-[76px] ">
                   {[
                     'Free Consultations',
                     'Business Planning',
@@ -49,15 +50,17 @@ const OurPricing = () => {
                   ))}
                 </div>
                 <div className="">
-                    <h3 className="font-serif font-bold text-[36px] text-[#000] ml-[50px] mt-[30px] cursor-pointer duration-300 ease-in-out hover:text-[#FE651B]">Choose Plan</h3>
+                    <h3 className="font-serif font-bold text-[36px] text-[#000] text-center   mt-12 cursor-pointer duration-300 ease-in-out hover:text-[#FE651B]">Choose Plan</h3>
                 </div>
+              </div>
               </div>
               
             </div>
-            <div className="w-[32%]">
-              <img className="ml-[170px]" src={Our01} alt="Pricing Image" />
-              <img className="mt-[-180px]" src={Our00} alt="Pricing Overlay" />
-              <div className="mt-[-495px] ml-[50px]">
+           <div className="w-[32%]">
+              <div className="bg-plan bg-cover bg-no-repeat w-[464px] h-[606px] relative ">
+                <img className=" absolute top-[12px] right-[3px] -z-50   " src={Our01} alt="Pricing Image" />
+              
+              <div className=" pt-8 px-11">
                 <h3 className="font-serif font-bold text-[24px] text-[#000]">Basic Plan</h3>
                 <div className="flex gap-10 mt-3 items-center">
                   <div className="flex">
@@ -68,7 +71,7 @@ const OurPricing = () => {
                 </div>
                 
                 {/* Features */}
-                <div className="mt-8 ml-[50%] translate-x-[-50%] mr-[-50px]">
+                <div className=" ml-[50%] translate-x-[-50%] mt-[76px] ">
                   {[
                     'Free Consultations',
                     'Business Planning',
@@ -84,26 +87,28 @@ const OurPricing = () => {
                   ))}
                 </div>
                 <div className="">
-                    <h3 className="font-serif font-bold text-[36px] text-[#FE651B] ml-[50px] mt-[30px] cursor-pointer duration-300 ease-in-out hover:text-[#000]">Choose Plan</h3>
+                    <h3 className="font-serif font-bold text-[36px] text-[#000] text-center   mt-12 cursor-pointer duration-300 ease-in-out hover:text-[#FE651B]">Choose Plan</h3>
                 </div>
+              </div>
               </div>
               
             </div>
-            <div className="w-[32%]">
-              <img className="ml-[170px]" src={Our02} alt="Pricing Image" />
-              <img className="mt-[-180px]" src={Our00} alt="Pricing Overlay" />
-              <div className="mt-[-495px] ml-[50px]">
+           <div className="w-[32%]">
+              <div className="bg-plan bg-cover bg-no-repeat w-[464px] h-[606px] relative ">
+                <img className=" absolute top-[12px] right-[3px] -z-50   " src={Our02} alt="Pricing Image" />
+              
+              <div className=" pt-8 px-11">
                 <h3 className="font-serif font-bold text-[24px] text-[#000]">Silver Plan</h3>
                 <div className="flex gap-10 mt-3 items-center">
                   <div className="flex">
                     <h6 className="font-serif font-bold text-[16px] text-[#3661FC]">$</h6>
                     <h2 className="font-serif font-bold text-[36px] text-[#3661FC]">99</h2>
                   </div>
-                  <h4 className="font-serif font-medium text-[16px] text-[#000]">Per Month</h4>
+                  <h4 className="font-serif font-medium text-[16px] text-[#000]">Glod Plan</h4>
                 </div>
                 
                 {/* Features */}
-                <div className="mt-8 ml-[50%] translate-x-[-50%] mr-[-50px]">
+                <div className=" ml-[50%] translate-x-[-50%] mt-[76px] ">
                   {[
                     'Free Consultations',
                     'Business Planning',
@@ -119,11 +124,14 @@ const OurPricing = () => {
                   ))}
                 </div>
                 <div className="">
-                    <h3 className="font-serif font-bold text-[36px] text-[#000] ml-[50px] mt-[30px] cursor-pointer duration-300 ease-in-out hover:text-[#FE651B]">Choose Plan</h3>
+                    <h3 className="font-serif font-bold text-[36px] text-[#000] text-center   mt-12 cursor-pointer duration-300 ease-in-out hover:text-[#FE651B]">Choose Plan</h3>
                 </div>
+              </div>
               </div>
               
             </div>
+            
+            
             
           </div>
            </Link>

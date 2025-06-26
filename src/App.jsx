@@ -8,6 +8,8 @@ import Portfolio from "./pages/Portfolio"
 import PortfolioDetails from "./pages/PortfolioDetails"
 import Pricing from "./pages/Pricing"
 import Shop from "./pages/Shop"
+import Contact from "./pages/Contact"
+
 
 
 
@@ -23,6 +25,7 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="Portfolioone" element={<PortfolioDetails/>}></Route>
     <Route path="Pricing" element={<Pricing/>}></Route>
     <Route path="Shop" element={<Shop/>}></Route>
+    <Route path="Contact" element={<Contact/>}></Route>
 
     
     

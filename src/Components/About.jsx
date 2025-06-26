@@ -64,7 +64,7 @@ const About = () => {
             <div className=" w-[24%] ">
                 <img className=' ' src={Add01} alt="" />
                 <img className='mt-[-180px]' src={Add001} alt="" />
-                <div className="  py-7 px-8 bg-[#F4F4FF] rounded-b-2xl ">
+                <div className="  py-7 px-8 w-[342px] bg-[#F4F4FF] rounded-b-2xl ">
                    <h2 className='font-serif font-semibold text-[22px] text-[#000] '>Graphics Design</h2>
                    <p className='font-serif font-medium text-[14px] text-[#000]'>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                 </div>
@@ -72,7 +72,7 @@ const About = () => {
             <div className=" w-[24%] ">
                 <img className=' ' src={Add02} alt="" />
                 <img className='mt-[-180px]' src={Add001} alt="" />
-                <div className="  py-7 px-8 bg-[#F4F4FF] rounded-b-2xl ">
+                <div className="  py-7 px-8 w-[342px] bg-[#F4F4FF] rounded-b-2xl ">
                    <h2 className='font-serif font-semibold text-[22px] text-[#3661FC] '>Web Developer</h2>
                    <p className='font-serif font-medium text-[14px] text-[#000]'>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                 </div>
@@ -80,7 +80,7 @@ const About = () => {
             <div className=" w-[24%] ">
                 <img className=' ' src={Add03} alt="" />
                 <img className='mt-[-180px]' src={Add001} alt="" />
-                <div className="  py-7 px-8 bg-[#F4F4FF] rounded-b-2xl hover:text-[#3661FC]">
+                <div className="  py-7 px-8 w-[342px] bg-[#F4F4FF] rounded-b-2xl hover:text-[#3661FC]">
                    <h2 className='font-serif font-semibold text-[22px] text-[#000] '>Digital Marketing</h2>
                    <p className='font-serif font-medium text-[14px] text-[#000]'>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                 </div>
@@ -88,7 +88,7 @@ const About = () => {
             <div className=" w-[24%] ">
                 <img className=' ' src={Add04} alt="" />
                 <img className='mt-[-180px]' src={Add001} alt="" />
-                <div className="  py-7 px-8 bg-[#F4F4FF] rounded-b-2xl ">
+                <div className="  py-7 px-8 w-[342px] bg-[#F4F4FF] rounded-b-2xl ">
                    <h2 className='font-serif font-semibold text-[22px] text-[#000] '>App Design</h2>
                    <p className='font-serif font-medium text-[14px] text-[#000]'>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                 </div>

@@ -21,7 +21,7 @@ const Service = () => {
             <h3 className=' font-serif font-bold text-[42px] text-[#000] '  >Best Quality Services</h3>
         </div>
         <div className="">
-            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10">
+            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10 border-2 border-[#F4F4FF] duration-300 ease-in-out  hover:border-2 hover:border-[#FE651B] ">
                 <div className="w-[35%]">
                     <img src={Serv} alt="" />
                 </div>
@@ -30,14 +30,14 @@ const Service = () => {
                     <p className=' font-serif font-normal text-[14px] text-[#000] mt-5 '>There are many variations of passages of Lorem Ipsusm available, but the majority our as have suffered alteration in some form, by injected humour, or randomised word which don't worry a look even sligh believable. If you are going to use a passage.</p>
                 </div>
                 <div className="w-[15%]">
-                    <div className="py-4 px-6 border-2 border-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#FE651B] ">
+                    <div className="py-4  text-center border-2 border-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#FE651B] ">
                         <h3 className=' font-serif font-normal text-[16px] text-[#000] '>Read More</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div className="">
-            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10">
+            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10 border-2 border-[#F4F4FF] duration-300 ease-in-out  hover:border-2 hover:border-[#FE651B]">
                 <div className="w-[35%]">
                     <img src={Serv} alt="" />
                 </div>
@@ -46,14 +46,14 @@ const Service = () => {
                     <p className=' font-serif font-normal text-[14px] text-[#000] mt-5 '>There are many variations of passages of Lorem Ipsusm available, but the majority our as have suffered alteration in some form, by injected humour, or randomised word which don't worry a look even sligh believable. If you are going to use a passage.</p>
                 </div>
                 <div className="w-[15%]">
-                    <div className="py-4 px-6 border-2 border-[#FE651B] bg-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#fff] ">
+                    <div className="py-4 text-center border-2 border-[#FE651B] bg-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#fff] ">
                         <h3 className=' font-serif font-normal text-[16px] text-[#000] '>Read More</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div className="">
-            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10">
+            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10 border-2 border-[#F4F4FF] duration-300 ease-in-out  hover:border-2 hover:border-[#FE651B]">
                 <div className="w-[35%]">
                     <img src={Serv} alt="" />
                 </div>
@@ -62,14 +62,14 @@ const Service = () => {
                     <p className=' font-serif font-normal text-[14px] text-[#000] mt-5 '>There are many variations of passages of Lorem Ipsusm available, but the majority our as have suffered alteration in some form, by injected humour, or randomised word which don't worry a look even sligh believable. If you are going to use a passage.</p>
                 </div>
                 <div className="w-[15%]">
-                    <div className="py-4 px-6 border-2 border-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#FE651B] ">
+                    <div className="py-4 text-center border-2 border-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#FE651B] ">
                         <h3 className=' font-serif font-normal text-[16px] text-[#000] '>Read More</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div className="">
-            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10">
+            <div className="flex justify-between py-3 px-3 items-center bg-[#F4F4FF] rounded-3xl mt-10 border-2 border-[#F4F4FF] duration-300 ease-in-out  hover:border-2 hover:border-[#FE651B]">
                 <div className="w-[35%]">
                     <img src={Serv} alt="" />
                 </div>
@@ -78,7 +78,7 @@ const Service = () => {
                     <p className=' font-serif font-normal text-[14px] text-[#000] mt-5 '>There are many variations of passages of Lorem Ipsusm available, but the majority our as have suffered alteration in some form, by injected humour, or randomised word which don't worry a look even sligh believable. If you are going to use a passage.</p>
                 </div>
                 <div className="w-[15%]">
-                    <div className="py-4 px-6 border-2 border-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#FE651B] ">
+                    <div className="py-4 text-center border-2 border-[#FE651B] w-[70%] rounded-full duration-300 ease-in-out hover:bg-[#FE651B] ">
                         <h3 className=' font-serif font-normal text-[16px] text-[#000] '>Read More</h3>
                     </div>
                 </div>
@@ -96,42 +96,42 @@ const Service = () => {
         </div>
         <div className=" mt-12 flex justify-between">
             <div className="w-[32%] ">
-                <div className="py-7 px-3 bg-how flex justify-between rounded-3xl ">
+                <div className="py-7 px-3 w-[464px] h-[213px] bg-how flex justify-between rounded-3xl ">
                   
-                  <div className="w-[50%]">
-                  <img className='ml-[50%] translate-x-[-50%]' src={How001} alt="" />
+                  <div className="w-[45%]">
+                  <img className='ml-[45px] mt-[4px]' src={How001} alt="" />
                   <h2 className=' font-serif font-bold text-[32px] ml-8 text-[#000] opacity-50 '>01</h2>
                   </div>
                  
-                  <div className="w-[50%] mt-5">
+                  <div className="w-[55%] mt-5">
                     <h2 className=' font-serif font-bold text-[18px] text-[#000] '>Business Planning</h2>
                     <p className=' font-serif font-normal text-[12px] text-[#000] mt-4 '>There are many variations of pass Lorem Ipsum available, but the a have suffered alteration.</p>
                   </div>
                 </div>
             </div>
             <div className="w-[32%] ">
-                <div className="py-7 px-3 bg-how02 flex justify-between rounded-3xl ">
+                <div className="py-7 px-3 w-[464px] h-[213px] bg-how02 flex justify-between rounded-3xl ">
                   
-                  <div className="w-[50%]">
-                  <img className='ml-[50%] translate-x-[-50%]' src={How002} alt="" />
+                  <div className="w-[45%]">
+                  <img className='ml-[45px] mt-[4px]' src={How002} alt="" />
                   <h2 className=' font-serif font-bold text-[32px] ml-8 text-[#000] opacity-50 '>02</h2>
                   </div>
                  
-                  <div className="w-[50%] mt-5">
+                  <div className="w-[55%] mt-5">
                     <h2 className=' font-serif font-bold text-[18px] text-[#3661FC] '>Market research</h2>
                     <p className=' font-serif font-normal text-[12px] text-[#000] mt-4 '>There are many variations of pass Lorem Ipsum available, but the a have suffered alteration.</p>
                   </div>
                 </div>
             </div>
             <div className="w-[32%] ">
-                <div className="py-7 px-3 bg-how flex justify-between rounded-3xl ">
+                <div className="py-7 px-3 w-[464px] h-[213px] bg-how flex justify-between rounded-3xl ">
                   
-                  <div className="w-[50%]">
-                  <img className='ml-[50%] translate-x-[-50%]' src={How003} alt="" />
+                  <div className="w-[45%]">
+                  <img className='ml-[45px] mt-[4px]' src={How003} alt="" />
                   <h2 className=' font-serif font-bold text-[32px] ml-8 text-[#000] opacity-50 '>03</h2>
                   </div>
                  
-                  <div className="w-[50%] mt-5">
+                  <div className="w-[55%] mt-5">
                     <h2 className=' font-serif font-bold text-[18px] text-[#000] '>Completely Solution</h2>
                     <p className=' font-serif font-normal text-[12px] text-[#000] mt-4 '>There are many variations of pass Lorem Ipsum available, but the a have suffered alteration.</p>
                   </div>

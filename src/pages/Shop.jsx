@@ -5,11 +5,20 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { MdOutlineShoppingBag } from "react-icons/md";
 
 import Cart from "../assets/Cart.png"
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate } from 'react-router-dom';
+
+
+
+
+
 
 
 
 const Shop = () => {
+
+    let navigate = useNavigate();
+  
+    
   return (
     <>
     <section className='py-40 bg-[#CCCCCC]'>
@@ -132,12 +141,15 @@ const Shop = () => {
                             <h4 className=' font-serif font-semibold text-[14px] text-[#3661FC]'>Apple iPhone 14 Pro Max 128 GB Deep Purple (eSIM)</h4>
                             <h3 className=' font-serif font-bold text-[16px] text-[#000] mt-4'>$2000</h3>
                         </div>
-                        <div className=" py-4  w-full bg-[#fff] rounded-full mt-7">
-                             <div className="flex items-center ml-[50%] translate-x-[-50%] font-serif font-bold text-[16px] text-[#000] ">
+                    
+                     
+                       <div className=" py-4  w-full bg-[#fff] rounded-full mt-7" onClick={()=>{navigate("/Addyocart")}} >
+                             <div className="flex items-center ml-[50%] translate-x-[-50%] font-serif font-bold text-[16px] text-[#000]  " >
                                 <MdOutlineShoppingBag/>
                                 <h3>Add to Cart</h3>
                              </div>
                         </div>
+                       
                     </div>
                 </div>
                 <div className="w-[32%]">
