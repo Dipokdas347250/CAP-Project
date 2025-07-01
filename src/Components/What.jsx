@@ -10,9 +10,9 @@ const What = () => {
   return (
     <section className=' py-28 px-3'>
         <Container>
-            <div className="flex justify-between">
-                <div className="w-[40%]">
-                   <div className="flex justify-between relative after:absolute after:contain-[''] after:top-0 after:right-[-130px] after:h-[100%] after:w-2 after:bg-[#3661FC] ">
+            <div className="lg:flex justify-between lg:space-y-0 space-y-16">
+                <div className="lg:w-[40%] w-full">
+                   <div className="flex justify-between relative after:absolute after:contain-[''] lg:after:top-0 after:bottom-[-10px] lg:after:right-[-130px] after:right-0 lg:after:h-[100%] after:h-1  lg:after:w-2 after:w-full after:bg-[#3661FC] ">
                     <div className="">
                         <img className='mt-20' src={Say} alt="" />
                         <img className='mt-20' src={Say} alt="" />
@@ -28,7 +28,7 @@ const What = () => {
                     </div>
                    </div>
                 </div>
-                <div className="w-[40%]">
+                <div className="lg:w-[40%] w-full">
                <div className=" ">
                <div className="flex items-center gap-3">
                    <TbBrandReact className='font-serif font-medium text-[16px] text-[#FE651B]' />

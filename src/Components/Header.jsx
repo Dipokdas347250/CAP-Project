@@ -11,11 +11,11 @@ import { FaFacebookF,FaLinkedinIn ,FaTwitter ,FaYoutube  } from "react-icons/fa"
 const Header = () => {
   return (
     <>
-    <section className='py-3 bg-[#3661FC] px-4 rounded-r-full  w-[100%] '>
+    <section className='py-3 bg-[#3661FC] px-4 lg:rounded-r-full  w-[100%] '>
         <Container>
-           <div className="flex">
-            <div className=" w-3/5">
-              <div className="flex justify-between items-center">
+           <div className="lg:flex ">
+            <div className=" lg:w-3/5 w-full">
+              <div className="lg:flex justify-between items-center">
                 <h4 className=' font-serif font-medium text-[14px] text-[#fff]'>Welcome to Ortencey Digital Market Agency</h4>
                 <div className="flex  items-center gap-3 ">
                    <IoCall className='font-serif font-medium text-[22px] text-[#FE651B]' />
@@ -27,8 +27,8 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="w-2/5">
-            <div className="flex justify-end items-center gap-10">
+            <div className="lg:w-2/5 w-full">
+            <div className="lg:flex justify-end items-center gap-10">
                 <div className="flex items-center">
                     <h1 className=' font-serif font-medium text-[14px] text-[#fff]'>English</h1>
                     <IoIosArrowDown className=' font-serif font-medium text-[20px] text-[#fff]' />

@@ -6,10 +6,10 @@ import { TbBrandReact } from "react-icons/tb";
 const YearsEx = () => {
   return (
     <>
-    <section className='py-28 bg-[#F4F4FF]'>
+    <section className='py-28 px-3 bg-[#F4F4FF]'>
         <Container>
-            <div className=" flex justify-between items-center">
-                <div className="w-[45%]">
+            <div className=" lg:flex justify-between items-center lg:space-y-0 space-y-16 gap-6  ">
+                <div className="lg:w-[45%] w-full">
                 <div className="flex items-center gap-3">
                    <TbBrandReact className='font-serif font-medium text-[16px] text-[#FE651B]' />
                    <h3 className='font-serif font-medium text-[16px] text-[#3661FC]'>Why Choose Ortencey</h3>
@@ -32,8 +32,8 @@ const YearsEx = () => {
                     <h4 className='font-serif font-medium text-[16px] text-[#000]'>80%</h4>
                 </div>
                 </div>
-                <div className="w-[45%]">
-                    <div className="pt-[337px] pb-[30px] px-[120px] bg-[#CCCCCC] rounded-3xl">
+                <div className="lg:w-[45%] w-full">
+                    <div className="pt-[337px] pb-[30px] lg:px-[120px] px-3 bg-[#CCCCCC] rounded-3xl">
                       <div className="flex items-center gap-5 py-6 px-10  bg-[#fff] rounded-full">
                         <h1 className='font-serif font-bold text-[42px] text-[#FE651B]'>25</h1> 
                         <h2 className='font-serif font-bold text-[22px] text-[#000]'>Years Experience</h2>

@@ -12,9 +12,9 @@ const StartNew = () => {
     <>
     <section className="pb-32 px-3">
         <Container>
-            <div className="w-[80%] ml-[50%] translate-x-[-50%]">
-            <div className="py-12 bg-gradient-to-r from-[#FE651B] to-[#FFAA52] border-8 border-[#fff] rounded-full ">
-               <div className=" flex justify-around items-center">
+            <div className="lg:w-[80%] w-full lg:ml-[50%] lg:translate-x-[-50%]">
+            <div className="py-12 lg:px-0 px-5 bg-gradient-to-r from-[#FE651B] to-[#FFAA52] border-8 border-[#fff] lg:rounded-full rounded-3xl   ">
+               <div className=" lg:flex justify-around items-center">
                    <div className="flex items-center gap-5">
                       <img src={icon01} alt="" />
                       <div className="">
@@ -39,17 +39,17 @@ const StartNew = () => {
                </div>
             </div>
             </div>
-            <div className="pt-44 pb-20 bg-[#3661FC] mt-[-100px] rounded-3xl">
-                <div className="flex justify-around">
-                    <div className="w-[45%]">
+            <div className="lg:pt-44 pt-10 lg:pb-20 pb-10 lg:px-0 px-4 bg-[#3661FC] lg:mt-[-100px] rounded-3xl">
+                <div className="lg:flex justify-around lg:space-y-0 space-y-10 ">
+                    <div className="lg:w-[45%] w-full">
                     <img src={video} alt="" />
                     </div>
-                    <div className="w-[45%]">
+                    <div className="lg:w-[45%] w-full">
                     <div className="flex items-center gap-3">
                    <TbBrandReact className='font-serif font-medium text-[16px] text-[#FE651B]' />
                    <h3 className='font-serif font-medium text-[16px] text-[#fff]'>Make an Appointment</h3>
                 </div>
-                     <h2 className='font-serif font-bold text-[42px] text-[#fff] mt-3'>Start New Project With Us</h2>
+                     <h2 className='font-serif font-bold lg:text-[42px] text-[36px] text-[#fff] mt-3'>Start New Project With Us</h2>
                      <div className=" flex justify-between">
                      <div className="w-[47%]  ">
                     <input className='h-[50px] w-full outline-none rounded-full pl-2' type="text" placeholder='Your Name*' />
@@ -66,7 +66,7 @@ const StartNew = () => {
                     <textarea className='w-full h-48  resize-none  outline-none rounded-3xl pl-2 pt-2  '  ></textarea>
 
                   </div>
-                  <div className="py-3 px-6 bg-gradient-to-r from-[#FE651B] to-[#FFAA52] w-[25%] rounded-full mt-7">
+                  <div className="py-3 px-6 bg-gradient-to-r from-[#FE651B] to-[#FFAA52] lg:w-[25%] text-center rounded-full mt-7">
             <h3 className='font-serif font-medium text-[16px] text-[#fff]'>Read More</h3>
         </div>
                     </div>

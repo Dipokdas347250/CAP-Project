@@ -15,8 +15,8 @@ const Blog = () => {
             <h3 className="font-serif font-medium text-[16px] text-[#3661FC]">Our Blog</h3>
             <h2 className="font-serif font-bold text-[36px] text-[#000]">Latest Blogs & Articles</h2>
           </div>
-          <div className="flex justify-between mt-10">
-            <div className="w-[32%]">
+          <div className="lg:flex justify-between mt-10 lg:space-y-0 space-y-16">
+            <div className="lg:w-[32%] w-full">
                 <div className=" relative">
                     <img className=' w-full ' src={Blog001} alt="" />
                 <div className="py-4 px-4  bg-[#3661FC]  text-center rounded-3xl absolute bottom-0 left-0 z-50 " >
@@ -48,7 +48,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[32%]">
+            <div className="lg:w-[32%] w-full">
                 <div className=" relative">
                     <img className=' w-full ' src={Blog001} alt="" />
                 <div className="py-4 px-4  bg-[#3661FC]  text-center rounded-3xl absolute bottom-0 left-0 z-50 " >
@@ -80,7 +80,7 @@ corporate success together</h2>
                     </div>
                 </div>
             </div>
-            <div className="w-[32%]">
+            <div className="lg:w-[32%] w-full">
                 <div className=" relative">
                     <img className=' w-full ' src={Blog001} alt="" />
                 <div className="py-4 px-4  bg-[#3661FC]  text-center rounded-3xl absolute bottom-0 left-0 z-50 " >

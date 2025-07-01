@@ -13,14 +13,14 @@ import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
    <>
-   <section className='py-20 bg-footer'>
+   <section className='py-20 px-3 bg-footer'>
     <Container>
-      <div className="flex justify-between items-center">
-         <div className="w-[70%]">
+      <div className="lg:flex justify-between items-center space-y-8 lg:space-y-0">
+         <div className="lg:w-[70%] w-full">
             <h2 className='font-serif font-medium text-[16px] text-[#fff]'>For Digital Marketing Agency</h2>
             <h3 className='font-serif font-bold text-[28px] text-[#fff]'>Join Our Agency Community</h3>
          </div>
-         <div className="w-[30%] text-end ">
+         <div className="lg:w-[30%] w-full text-end ">
             
             <div className="flex justify-between items-center py-3 px-3 bg-[#fff] rounded-full ">
             
@@ -34,8 +34,8 @@ const Footer = () => {
             </div>
          </div>
       </div>
-      <div className="flex justify-between mt-28">
-        <div className="w-[24%]">
+      <div className="lg:flex justify-between mt-28">
+        <div className="lg:w-[24%] w-full">
             <h2 className='font-serif  font-bold text-[28px] text-[#fff] relative after:absolute after:contain-[""] after:bottom-[-10px] after:left-0 after:h-[3px] after:w-[30%] after:bg-gradient-to-r from-[#FE651B] to-[#FFAA52] '>About Company</h2>
             <p className='font-serif font-normal text-[14px] text-[#fff] mt-9'>There are many variations of passages of Lore Ipsum availab but the majority have suffereds alteration in some form, by injected humour a randomised words which</p>
 <div className="flex gap-4 mt-5 ">
@@ -48,7 +48,7 @@ const Footer = () => {
 
               </div>
         </div>
-        <div className="w-[24%]">
+        <div className="lg:w-[24%] w-full">
         <h2 className='font-serif  font-bold text-[28px] text-[#fff] relative after:absolute after:contain-[""] after:bottom-[-10px] after:left-0 after:h-[3px] after:w-[30%] after:bg-gradient-to-r from-[#FE651B] to-[#FFAA52] '>Featured Services</h2>
         <ul>
             <li className='font-serif font-normal text-[14px] text-[#fff] duration-500 ease-in-out hover:text-[#3661FC] mt-9 ml-4 relative after:absolute after:contain-[""] after:top-[4px] after:left-[-16px] after:h-[10px] after:w-[10px] after:bg-[#3661FC] after:rounded-full '>Social Media Marketing</li>
@@ -58,7 +58,7 @@ const Footer = () => {
             <li className='font-serif font-normal text-[14px] text-[#fff] duration-500 ease-in-out hover:text-[#3661FC] mt-4 ml-4 relative after:absolute after:contain-[""] after:top-[4px] after:left-[-16px] after:h-[10px] after:w-[10px] after:bg-[#3661FC] after:rounded-full '>Case Studies</li>
         </ul>
         </div>
-        <div className="w-[24%]">
+        <div className="lg:w-[24%] w-full">
         <h2 className='font-serif  font-bold text-[28px] text-[#fff] relative after:absolute after:contain-[""] after:bottom-[-10px] after:left-0 after:h-[3px] after:w-[30%] after:bg-gradient-to-r from-[#FE651B] to-[#FFAA52] '>Recent Post</h2>
         <div className="flex gap-4 mt-9 items-center">
             <img src={Foo} alt="" />
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
         </div>
         </div>
-        <div className="w-[24%]">
+        <div className="lg:w-[24%] w-full">
         <h2 className='font-serif  font-bold text-[28px] text-[#fff] relative after:absolute after:contain-[""] after:bottom-[-10px] after:left-0 after:h-[3px] after:w-[30%] after:bg-gradient-to-r from-[#FE651B] to-[#FFAA52] '>Contact Us</h2>
         <div className="mt-9">
             <div className=" flex gap-4">
@@ -98,9 +98,9 @@ const Footer = () => {
       </div>
     </Container>
    </section>
-   <div className=" py-4 w-full bg-[#3661FC]">
+   <div className=" py-4 px-3 w-full bg-[#3661FC]">
         <Container>
-            <div className=" flex justify-between">
+            <div className=" lg:flex justify-between">
                 <h2 className='font-serif  font-bold text-[14px] text-[#fff] '>2022 © All rights reserved by devsnest-llc</h2>
                 <h3 className='font-serif  font-bold text-[14px] text-[#fff] '>Privacy Policy       |       Terms & Conditions</h3>
             </div>
